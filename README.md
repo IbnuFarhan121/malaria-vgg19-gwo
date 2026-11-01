@@ -96,16 +96,3 @@ Pengujian model final dilakukan terhadap **5.512 sampel data uji (Test Set)** ya
 | **F1-Score** | **0.96** |
 
 ---
-
-## 📁 Struktur Repositori
-
-```text
-malaria-vgg19-gwo/
-├── .gitignore                  # Berkas pengecualian Git (dataset, cache, weights)
-├── README.md                   # Dokumentasi dan laporan proyek
-├── requirements.txt            # Daftar pustaka & dependensi Python
-├── best_hyperparameters.json   # Output parameter hasil pencarian GWO
-├── data/                       # Folder dataset lokal (diabaikan oleh git)
-│   └── cell_images/
-└── notebooks/
-    └── malaria_classification_vgg19_gwo.ipynb   # Notebook eksperimen utama

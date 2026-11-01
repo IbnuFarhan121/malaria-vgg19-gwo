@@ -1,0 +1,16 @@
+# Abaikan folder dataset berukuran besar
+data/
+cell_images/
+*.zip
+*.tar.gz
+
+# Abaikan bobot model berukuran besar (opsional)
+*.h5
+*.hdf5
+*.pth
+
+# Abaikan cache Python & Jupyter Notebook
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
